@@ -1,0 +1,110 @@
+{
+  "message": "hello world",
+  "upperheader":{
+    "text1":"All featured product 50% off",
+    "text2":"Shop Now"
+  },
+  "navigation":{
+    "home":"Home",
+    "product":{
+      "name":"Product",
+      "submenu1":"All Products",
+      "submenu2":"Combo Products"
+    },
+    "aboutayurveda":"About Ayurveda",
+    "about": {
+      "name":"About",
+      "submenu1":"About Maharaj",
+      "submenu2":"About Trust"
+    },
+    "collectiondepot":"Collection Depot",
+    "contact":"Contact",
+    "language":{
+      "english":"English",
+      "marathi":"Marathi",
+      "hindi":"Hindi"
+    }
+  },
+  "products":{
+    "title":"Immunity Booster Products",
+    "description":"A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.",
+    "product1":{
+      "name":"product 1",
+      "price":"₹100.00",
+      "oldprice":"₹150.00",
+      "description":"test description"
+    },
+    "product2":{
+      "name":"product 2",
+      "price":"₹200.00",
+      "oldprice":"₹250.00",
+      "description":"test description"
+    },
+    "product3":{
+      "name":"product 3",
+      "price":"₹300.00",
+      "oldprice":"₹350.00",
+      "description":"test description"
+    },
+    "product4":{
+      "name":"product 4",
+      "price":"₹400.00",
+      "oldprice":"₹450.00",
+      "description":"test description"
+    },
+    "product5":{
+      "name":"product 5",
+      "price":"₹500.00",
+      "oldprice":"₹550.00",
+      "description":"test description"
+    },
+    "product6":{
+      "name":"product 6",
+      "price":"₹600.00",
+      "oldprice":"₹650.00",
+      "description":"test description"
+    }
+  },
+  "about":{
+    "title":"ABOUT SHRI SADANAND",
+    "description1":"Where flowers are our inspiration to create lasting memories. Whatever the occasion inspiration to create lasting memories.",
+    "description2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non veniam tempore nemo doloribus mollitia magnam similique ratione! Incidunt possimus magni ullam, distinctio nesciunt voluptates commodi dolor ipsa voluptate atque",
+    "buttontext":"Know More"
+  },
+  "testimonials":{
+    "candidate1":{
+      "name":"Rohit Sharma / CEO",
+      "description":"Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium."
+    },
+    "candidate2":{
+      "name":"Virat Kolhi / Co-Founder",
+      "description":"Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium."
+    }
+  },
+  "footer":{
+    "footertext":"A perfect blend of creativity, energy, communication, happiness and love. Let us arrange a smile for you.",
+    "quicklinks":{
+      "name":"quick links",
+      "link1":"Home",
+      "link2":"Products",
+      "link3":"About Ayurveda",
+      "link4":"About",
+      "link5":"Contact Us"
+    },
+    "address":{
+      "name":"ADDRESS",
+      "line1":"Nityanand Pharmacy Sadguru Dham,",
+      "line2":"Ganeshpuri, Tal.: Bhiwandi,",
+      "line3":"Dist:Thane, Maharashtra"
+    },
+    "contact":{
+      "name":"CONTACT US",
+      "contact":"+91 8828594212"
+    }
+  },
+  "bottomfooter":{
+    "copyright":"Copyright 2021",
+    "company":"SriSadanand",
+    "rights":" . All Rights Reserved"   
+  }
+}
