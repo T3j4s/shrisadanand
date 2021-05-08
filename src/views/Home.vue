@@ -14,7 +14,7 @@
       <img class="d-block w-100" src="@/assets/images/slider/slider-2.jpg" alt="Banner 2">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="@/assets/images/slider/slider-2.jpg" alt="banner 3">
+      <img class="d-block w-100" src="@/assets/images/slider/slider-3.jpg" alt="banner 3">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -87,8 +87,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product1`">
-                                            <img src="@/assets/images/product/product-1.jpg" alt="Product 1">
+                                        <router-link :to="`/${$i18n.locale}/abhayTablet`">
+                                            <img src="@/assets/images/product/AbhayTablet.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -101,10 +101,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product1`">{{ $t('products.product1.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">{{ $t('products.product1.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product1.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product1.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product1.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -112,8 +112,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product2`">
-                                            <img src="@/assets/images/product/product-2.jpg" alt="Product 2">
+                                        <router-link :to="`/${$i18n.locale}/gurjoKadha`">
+                                            <img src="@/assets/images/product/GurjoKadha.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -126,10 +126,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product2`">{{ $t('products.product2.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/gurjoKadha`">{{ $t('products.product2.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product2.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product2.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product2.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -137,8 +137,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product3`">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="Product 3">
+                                        <router-link :to="`/${$i18n.locale}/haridraTablet`">
+                                            <img src="@/assets/images/product/HaridraTablet.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -151,10 +151,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product3`">{{ $t('products.product3.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/haridraTablet`">{{ $t('products.product3.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product3.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product3.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product3.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -162,8 +162,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product4`">
-                                            <img src="@/assets/images/product/product-2.jpg" alt="Product 4">
+                                        <router-link :to="`/${$i18n.locale}/nityanandDantManjan`">
+                                            <img src="@/assets/images/product/NityanandDantManjan.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -176,10 +176,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product4`">{{ $t('products.product4.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/nityanandDantManjan`">{{ $t('products.product4.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product4.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product4.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product4.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -187,8 +187,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product5`">
-                                            <img src="@/assets/images/product/product-1.jpg" alt="Product 5">
+                                        <router-link :to="`/${$i18n.locale}/sadanandPChurna`">
+                                            <img src="@/assets/images/product/SadanandPChurna.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -201,10 +201,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product5`">{{ $t('products.product5.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/sadanandPChurna`">{{ $t('products.product5.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product5.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product5.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product5.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
@@ -212,8 +212,8 @@
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product6`">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="Product 6">
+                                        <router-link :to="`/${$i18n.locale}/shriGovindOil`">
+                                            <img src="@/assets/images/product/ShriGovindOil.jpg" alt="Image">
                                         </router-link>
                                         <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
@@ -226,10 +226,10 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product6`">{{ $t('products.product6.name') }}</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/shriGovindOil`">{{ $t('products.product6.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product6.price') }}</span>
-                                            <span class="old-price">{{ $t('products.product6.oldprice') }}</span>
+                                            <!-- <span class="old-price">{{ $t('products.product6.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>

@@ -4,11 +4,11 @@
         <div class="page-banner bg-light">
             <div class="container">
                 <div class="page-banner-content text-center">
-                    <h2 class="title">Gurjo Kadha</h2>
+                    <h2 class="title">{{$t('products.product2.name')}}</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Products</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Gurjo Kadha</li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}/products`">Products</router-link></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{$t('products.product2.name')}}</li>
                     </ol>
                 </div>
             </div>
@@ -24,17 +24,12 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-							  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleControls" data-slide-to="1"></li>
-    <li data-target="#carouselExampleControls" data-slide-to="2"></li>
-  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="@/assets/images/product/product-1.jpg" alt="First slide">
+      <img class="d-block w-100" src="@/assets/images/product/GurjoKadha.jpg" alt="Product Image">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="@/assets/images/product/product-2.jpg" alt="Second slide">
+      <img class="d-block w-100" src="@/assets/images/product/GurjoKadha2.jpg" alt="Product Image">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -49,7 +44,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="shop-single-content">
-                            <h3 class="title">Gurjo Kadha</h3>
+                            <h3 class="title">{{$t('products.product2.name')}}</h3>
                             <!-- <span class="product-sku">SKU: <span>501</span></span> -->
                             <!-- <div class="product-rating">
                                 <ul class="rating-star">
@@ -64,13 +59,13 @@
                             <div class="thumb-price">
 								<div class="row">
 								<div class="col-sm-12 col-lg-5">
-									<span class="current-price">{{price}}</span>
-                                	<span class="old-price">₹29.00</span>
+									<span class="current-price">₹{{price}}</span>
+                                	<!-- <span class="old-price">₹{{Number(price)+50}}</span> -->
                                 	<!-- <span class="discount">-34%</span> -->
 								</div>								
 								
 								</div>
-								<div class="row">
+								<div class="row mt-2">
 									<div class="col-sm-6 col-lg-5">
 									<span style="font-size:22px">Qty:  </span>
 									<select name="quantity" id="quantity" v-model="selected">
@@ -83,43 +78,42 @@
                             </div>
                             <div>
 								<p>
-								कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि 
-								अँटी-व्हायरल घटकांसहित
+								{{$t('products.product2.translation')}}
 								</p>
 
 								<div>
-									 <p class="font-weight-bold">Indication:</p>
+									 <p class="font-weight-bold">{{$t('products.product2.description.indication.name')}}</p>
 									 <p>
 										 <ul class="bullets">
-											<li> for Tridhosha Shudhhi & Immunity development.</li> 
-											<li>Also beneficial in alleviating snoring.</li>
-											<li>Safe and Effective for Pregnant Woman.</li>
+											<li>{{$t('products.product2.description.indication.line1')}}</li> 
+											<li>{{$t('products.product2.description.indication.line2')}}</li>
+											<li>{{$t('products.product2.description.indication.line3')}}</li>
 										</ul>
 									 </p>
 								</div>
 								<br>
 								<div>
-									<p class="font-weight-bold">Ingredients : Each bottle contains:</p>
-									<p>Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS</p>
+									<p class="font-weight-bold">{{$t('products.product2.description.ingridents.name')}}</p>
+									<p>{{$t('products.product2.description.ingridents.text')}}</p>
 								</div>
 								<br>
 								<div>
-									<p class="font-weight-bold">Dosage:  </p>
+									<p class="font-weight-bold">{{$t('products.product2.description.dosage.name')}}</p>
 									<p>
 										<ul class="bullets">
-											<li><span class="text-danger">Infants:</span> Half tsp. twice a day on empty stomach,</li> 
-											<li><span class="text-danger">Children:</span> 1 tsp. twice a day on empty stomach,</li>
-											<li><span class="text-danger">Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician.</li>
+											<li v-html="$t('products.product2.description.dosage.line1')"></li> 
+											<li v-html="$t('products.product2.description.dosage.line2')"></li>
+											<li v-html="$t('products.product2.description.dosage.line3')"></li>
 										</ul>
 									</p>
 								</div>
 
 								<p>
-								<span class="font-weight-bold">Note—</span> eating anything for 2 hours before and after consumption of Gurjo Kadha
+								<span class="font-weight-bold">{{$t('products.product2.description.note.name')}}</span> {{$t('products.product2.description.note.text')}}
 								</p>																  
 
 								<p>
-									To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Here.
+									{{$t('products.product2.orderText')}}
 								</p>
 
 							</div>
@@ -329,7 +323,7 @@
   Swiper.use([Navigation]);
 
 export default {
-  name: 'GurjoKadhaProduct',
+  name: 'GurjoKadha',
   data() {
 	  return  {
 		  selected:"100ml",
@@ -338,13 +332,13 @@ export default {
   computed:{
 	  price: function() {
 		  if(this.selected == "100ml") {
-			  return "₹125"
+			  return 100
 		  }
 		  else if(this.selected == "200ml") {
-			  return "₹200"
+			  return 200
 		  }
 		  else if(this.selected == "450ml"){
-			  return "₹400"
+			  return 400
 		  }
 	  }
   },
@@ -830,7 +824,7 @@ export default {
 				e.preventDefault();
 				if ($this.siblings('ul:visible').length) {
 					$this.parent('li').removeClass('active-expand');
-					$this.siblings('ul').slideUp();
+					//$this.siblings('ul').slideUp();
 				} else {
 					$this.parent('li').addClass('active-expand');
 					$this.closest('li').siblings('li').find('ul:visible').slideUp();

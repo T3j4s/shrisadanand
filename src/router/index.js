@@ -7,7 +7,12 @@ import CollectionDepot from '../views/CollectionDepot.vue'
 import AboutAashram from '../views/AboutAashram.vue'
 import About from '../views/About.vue'
 import ContactUs from '../views/ContactUs.vue'
-import GurjoKadhaProduct from '../views/GurjoKadhaProduct'
+import AbhayTablet from '../views/AbhayTabletProduct'
+import GurjoKadha from '../views/GurjoKadhaProduct'
+import HaridraTablet from '../views/HaridraTabletProduct'
+import NityanandDantManjan from '../views/NityanandDantManjanProduct'
+import SadanandPChurna from '../views/SadanandPChurnaProduct'
+import ShriGovindOil from '../views/ShriGovindOilProduct'
 import i18n from '../i18n'
 
 const routes = [
@@ -62,9 +67,34 @@ const routes = [
       component: ContactUs
     },
     {
-      path: 'gurjokadha',
-      name: 'GurjoKadhaProduct',
-      component: GurjoKadhaProduct
+      path: 'abhayTablet',
+      name: 'abhayTablet',
+      component: AbhayTablet
+    },
+    {
+      path: 'gurjoKadha',
+      name: 'gurjoKadha',
+      component: GurjoKadha
+    },
+    {
+      path: 'haridraTablet',
+      name: 'haridraTablet',
+      component: HaridraTablet
+    },
+    {
+      path: 'nityanandDantManjan',
+      name: 'nityanandDantManjan',
+      component: NityanandDantManjan
+    },
+    {
+      path: 'sadanandPChurna',
+      name: 'sadanandPChurna',
+      component: SadanandPChurna
+    },
+    {
+      path: 'shriGovindOil',
+      name: 'shriGovindOil',
+      component: ShriGovindOil
     }
   ]
 }
@@ -77,7 +107,7 @@ const router = createRouter({
 
 // use beforeEach route guard to set the language
 router.beforeEach((to, from, next) => {
-
+  window.scrollTo(0, 0);
   // use the language from the routing param or default language
   let language = to.params.lang;
   if (!language) {

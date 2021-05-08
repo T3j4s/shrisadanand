@@ -6,7 +6,7 @@
                 <div class="page-banner-content text-center">
                     <h2 class="title">Products</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
                         <li class="breadcrumb-item active" aria-current="page">All Products</li>
                     </ol>
                 </div>
@@ -54,8 +54,8 @@
                             <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product1`">
-                                            <img src="@/assets/images/product/product-1.jpg" alt="product Image 1">
+                                        <router-link :to="`/${$i18n.locale}/abhayTablet`">
+                                            <img src="@/assets/images/product/AbhayTablet.jpg" alt="Product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -75,7 +75,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product1`">Product 1</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">Abhay Tablet</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
@@ -85,8 +85,8 @@
                              <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product2`">
-                                            <img src="@/assets/images/product/product-2.jpg" alt="product Image 2">
+                                        <router-link :to="`/${$i18n.locale}/gurjoKadha`">
+                                            <img src="@/assets/images/product/GurjoKadha.jpg" alt="Product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -106,7 +106,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product2`">Product 2</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/gurjoKadha`">Gurjo Kadha</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
@@ -116,8 +116,8 @@
                              <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product3`">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="product Image 3">
+                                        <router-link :to="`/${$i18n.locale}/haridraTablet`">
+                                            <img src="@/assets/images/product/HaridraTablet.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -137,7 +137,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product3`">Product 3</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/haridraTablet`">Haridra Tablet</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
@@ -147,8 +147,8 @@
                              <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product4`">
-                                            <img src="@/assets/images/product/product-4.jpg" alt="product Image 4">
+                                        <router-link :to="`/${$i18n.locale}/nityanandDantManjan`">
+                                            <img src="@/assets/images/product/NityanandDantManjan.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -168,7 +168,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product4`">Product 4</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/nityanandDantManjan`">Nityanand Dant Manjan</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
@@ -178,8 +178,8 @@
                              <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product5`">
-                                            <img src="@/assets/images/product/product-4.jpg" alt="product Image 5">
+                                        <router-link :to="`/${$i18n.locale}/sadanandPChurna`">
+                                            <img src="@/assets/images/product/SadanandPChurna.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -199,7 +199,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product5`">Product 5</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/sadanandPChurna`">Sadanand-P Churna</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
@@ -209,8 +209,8 @@
                              <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link :to="`/${$i18n.locale}/product6`">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="product Image 6">
+                                        <router-link :to="`/${$i18n.locale}/shriGovindOil`">
+                                            <img src="@/assets/images/product/ShriGovindOil.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -230,7 +230,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/product6`">Product 6</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/shriGovindOil`">Shri Govind Oil</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>

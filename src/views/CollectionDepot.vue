@@ -5,7 +5,7 @@
                 <div class="page-banner-content text-center">
                     <h2 class="title">Collection Depot</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
                         <li class="breadcrumb-item active" aria-current="page">collection Depot</li>
                     </ol>
                 </div>
@@ -24,7 +24,7 @@
                   </tr>
               </thead>
                         <tbody>
-                            <tr v-for="person in persons" :key="person.id">
+                            <tr v-for="person in data" :key="person.id">
                                 <td class="price">
                                     <span class="amount">{{person.id}}</span>
                                 </td>
@@ -50,8 +50,38 @@ export default {
   name: 'Collection Depot',
   data() {
     return {
-      persons : [
-{"id":"१", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"७४००३२६८४७" },
+      data:[],
+englishPersons : [
+{id:"1", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"७४००३२६८४७" },
+{id:"2",  "name":"श्री. अजित मेहेर", "location":"आगाशी विरार", "contact":"८७९६४०३७१९" },
+{id:"3",  "name":"श्री. बाबूराव गावड", "location":"केळवा रोड सफाळा", "contact":"९५१८९९५७४३"},
+{id:"4",  "name":"श्री. दयानंद म्हाञे", "location":"जूचंद्र वसई", "contact":"९२७३११६१७२" },
+{id:"5",  "name":"श्री. यतीन पाठारे", "location":"कल्याण", "contact":"९८७०३१४८१४" },
+{id:"6",  "name":"श्री. भरत पाटील", "location":"वडवलि वाशिंद", "contact":"९२७२८०६८६७" },
+{id:"7",  "name":"श्री. अरूण शर्मा", "location":"वसई स्टेशन प", "contact":"९९३०३३१५१५" },
+{id:"8",  "name":"श्री. रतन पाटील", "location":"डोंबिवली", "contact":"९८६७१४५०३०" },
+{id:"9",  "name":"श्री. सुभाष भाग्यवंत", "location":"हाजिमलंग", "contact":"८८२८५९४२१२" },
+{id:"10", "name":"श्री. गुरुनाथ भोईर", "location":"मुर्धा भाईदंर", "contact":"९८२०६७१८२६" },
+{id:"11", "name":"श्री. पवन घरत", "location":"गोडदेव भाईदंर", "contact":"९९३०५३६६६३" },
+{id:"12", "name":"श्री. नामदेव पाटिल", "location":"नाडा-वाडा", "contact":"९१४५४७२७२४" },
+{id:"12", "name":"श्री. शैलेश भोईर", "location":"गणेशपुरी", "contact":"८९७५४४७१११" },
+{id:"14", "name":"श्री. हरिदास संगमेश्वर", "location":"डोंगरपाडा विरार", "contact":"७५०७६९१७८३" },
+{id:"15", "name":"श्री. केतन शाहा", "location":"नाळासोपारा", "contact":"९८२०७३५५६९" },
+{id:"16", "name":"श्री. तुषार सोनार", "location":"इवरशांईन वसई", "contact":"८०८७५२१४५८" },
+{id:"17", "name":"श्री. दयानंद पवार", "location":"अंबाडी खंबाळा", "contact":"९५५२७२२८१६" },
+{id:"18", "name":"श्री. दिपक वारघडे", "location":"बदलापूर", "contact":"९७६४२४४२८०" },
+{id:"19", "name":"श्री. राम पाटील", "location":"भिवंडी-अंबाडी", "contact":"९६५३२५४०३४" },
+{id:"२0", "name":"श्री. मुकेश पाटील", "location":"दिवा स्टेशन", "contact":"८६५५६६७७७३" },
+{id:"२1", "name":"श्री. साधना पाटील", "location":"जूचंद्र वसई", "contact":"९५२९९१२९११" },
+{id:"२2", "name":"डाॅ. मोनिका नाईक", "location":"सोनाला भिवंडी", "contact":"९६१९०००३०३" },
+{id:"२3", "name":"श्री. जयकिसन पाटील", "location":"राई भाईदंर", "contact":"९२२४७१६७०९" },
+{id:"२4", "name":"डाॅ. नंदकुमार पाटील", "location":"मोर्वा भाईदंर", "contact":"९९२०३११२५८" },
+{id:"२5", "name":"श्री. सुधिर पाटील", "location":"राई भाईदंर", "contact":"८६५२०४५९१८" },
+{id:"२6", "name":"सौ. संध्या घरत", "location":"घरतपाडा मनोर", "contact":"८४१२०२७७५५" },
+{id:"२7", "name":"डाॅ. सुनंदा पाटील", "location":"वळ भिवंडी", "contact":"८८८८१४०३५२" }
+],
+      marathiPersons : [
+{id:"१", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"७४००३२६८४७" },
 {id:"२",  "name":"श्री. अजित मेहेर", "location":"आगाशी विरार", "contact":"८७९६४०३७१९" },
 {id:"३",  "name":"श्री. बाबूराव गावड", "location":"केळवा रोड सफाळा", "contact":"९५१८९९५७४३"},
 {id:"४",  "name":"श्री. दयानंद म्हाञे", "location":"जूचंद्र वसई", "contact":"९२७३११६१७२" },
@@ -79,6 +109,22 @@ export default {
 {id:"२६", "name":"सौ. संध्या घरत", "location":"घरतपाडा मनोर", "contact":"८४१२०२७७५५" },
 {id:"२७", "name":"डाॅ. सुनंदा पाटील", "location":"वळ भिवंडी", "contact":"८८८८१४०३५२" }
 ]
+    }
+  },
+  created() {
+    if(this.$route.params.lang == 'en') {
+      this.data = this.englishPersons;
+    }
+    else {
+      this.data= this.marathiPersons;
+    } 
+  },
+  updated() {
+    if(this.$route.params.lang == 'en') {
+      this.data = this.englishPersons;
+    }
+    else {
+      this.data= this.marathiPersons;
     }
   }
 }

@@ -5,7 +5,7 @@
                 <div class="page-banner-content text-center">
                     <h2 class="title">Contact</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
                         <li class="breadcrumb-item active" aria-current="page">Contact</li>
                     </ol>
                 </div>
@@ -28,7 +28,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="section-title text-center">
-                                <h2 class="title">Contact Us</h2>
+                                <h2 class="title">{{$t('contactpage.title')}}</h2>
                                 <!-- <p>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p> -->
                             </div>
                         </div>
@@ -39,22 +39,22 @@
                             <div class="col-sm-4">
                                 <div class="single-contact-info text-center">
                                     <i class="fa fa-fax"></i>
-                                    <h4 class="title"> Address </h4>
-                                    <p>Nityanand Pharmacy Sadguru Dham,<br> Ganeshpuri, Tal.: Bhiwandi,<br> Dist:Thane, Maharashtra</p>
+                                    <h4 class="title"> {{$t('footer.address.name')}} </h4>
+                                    <p>{{$t('footer.address.line1')}}<br> {{$t('footer.address.line2')}}<br> {{$t('footer.address.line3')}}</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-contact-info text-center">
                                     <i class="fa fa-phone"></i>
-                                    <h4 class="title"> Phone Number </h4>
-                                    <p><a href="tel:8828594212">+91 8828594212  </a></p>
+                                    <h4 class="title"> {{$t('footer.contact.name')}} </h4>
+                                    <p><a href="tel:8828594212">{{$t('footer.contact.contact')}}  </a></p>
                                     <!-- <p><a href="tel:7162981822">+88 716-298-1822 </a></p> -->
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="single-contact-info text-center">
                                     <i class="fa fa-envelope"></i>
-                                    <h4 class="title"> Email Address </h4>
+                                    <h4 class="title"> {{$t('footer.email')}} </h4>
                                     <p><a href="mailto:care@shrisadanand.com "> care@shrisadanand.com  </a></p>
                                     <!-- <p><a href="mailto:info@kngu.com"> info@kngu.com </a></p> -->
                                 </div>
@@ -96,7 +96,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="single-form text-center">
-                                    <input type='submit' class="btn btn-dark" value="SEND MESSAGE" />
+                                    <input type='submit' class="btn btn-dark" :value="$t('contactpage.sendMessage')" />
                                 </div>
                             </div>
                         </div>

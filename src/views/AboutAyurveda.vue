@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>About Ayurveda page</h1>
-    <p>{{ $t('message') }}</p>
+    <h1 class="text-center">page under development</h1>
   </div>
 </template>
 

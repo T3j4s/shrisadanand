@@ -48,7 +48,7 @@
                                             <a href="#">{{ $t('navigation.about.name') }}</a>
                                             <ul class="sub-menu">
                                                 <li><router-link :to="`/${$i18n.locale}/aboutmaharaj`">{{ $t('navigation.about.submenu1') }}</router-link></li>
-                                                <li><router-link :to="`/${$i18n.locale}/abouttrust`">{{ $t('navigation.about.submenu2') }}</router-link></li>
+                                                <li><router-link :to="`/${$i18n.locale}/aboutaashram`">{{ $t('navigation.about.submenu2') }}</router-link></li>
                                             </ul>
                                         </li>
                                         <li><router-link :to="`/${$i18n.locale}/contactus`">{{ $t('navigation.contact') }}</router-link></li>
@@ -212,7 +212,7 @@
                         <li>
                             <a href="#">{{ $t('navigation.product.name') }}</a>
                             <ul class="sub-menu">
-                                <li><a :href="`/${$i18n.locale}`">{{ $t('navigation.product.submenu1') }}</a></li>
+                                <li><a :href="`/${$i18n.locale}/products`">{{ $t('navigation.product.submenu1') }}</a></li>
                                 <li><a :href="`/${$i18n.locale}/products/combo`">{{ $t('navigation.product.submenu2') }}</a></li>
                             </ul>
                         </li>
@@ -222,7 +222,7 @@
                             <a href="#">{{ $t('navigation.about.name') }}</a>
                             <ul class="sub-menu">
                                 <li><a :href="`/${$i18n.locale}/aboutmaharaj`">{{ $t('navigation.about.submenu1') }}</a></li>
-                                <li><a :href="`/${$i18n.locale}/abouttrust`">{{ $t('navigation.about.submenu2') }}</a></li>
+                                <li><a :href="`/${$i18n.locale}/aboutaashram`">{{ $t('navigation.about.submenu2') }}</a></li>
                             </ul>
                         </li>
                         <li><a :href="`/${$i18n.locale}/contactus`">{{ $t('navigation.contact') }}</a></li>

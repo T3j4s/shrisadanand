@@ -6,7 +6,7 @@
                 <div class="page-banner-content text-center">
                     <h2 class="title">Combo Products</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link to="/">Home</router-link></li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
                         <li class="breadcrumb-item active" aria-current="page">Combo Products</li>
                     </ol>
                 </div>
@@ -51,11 +51,11 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="grid" role="tabpanel">
                         <div class="row">
-                            <div class="col-lg-3 col-sm-6">
+                            <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link to="/productDetails">
-                                            <img src="@/assets/images/product/product-1.jpg" alt="product Image 1">
+                                        <router-link :to="`/${$i18n.locale}/abhayTablet`">
+                                            <img src="@/assets/images/product/AbhayTablet.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -75,18 +75,18 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link to="/productDetails">Foxglove Flower</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">Abhay Tablet</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-lg-3 col-sm-6">
+                             <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-2.jpg" alt="product Image 2">
+                                        <router-link :to="`/${$i18n.locale}/abhayTablet`">
+                                            <img src="@/assets/images/product/AbhayTablet.jpg" alt="product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -106,18 +106,18 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">Abhay Tablet</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-lg-3 col-sm-6">
+                             <div class="col-lg-4 col-sm-6">
                                 <div class="single-product">
                                     <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="product Image 3">
+                                        <router-link :to="`/${$i18n.locale}/abhayTablet`">
+                                            <img src="@/assets/images/product/AbhayTablet.jpg" alt="Product Image">
                                         </router-link>
 
                                         <!-- <div class="action-links">
@@ -137,162 +137,7 @@
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                             <li class="rating-on"><i class="fa fa-star-o"></i></li>
                                         </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
-                                        <div class="price-box">
-                                            <span class="current-price">₹79.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-3 col-sm-6">
-                                <div class="single-product">
-                                    <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-4.jpg" alt="product Image 4">
-                                        </router-link>
-
-                                        <!-- <div class="action-links">
-                                            <ul>
-                                                <li><a href="cart.html" data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>
-                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                    <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
-                                        <div class="price-box">
-                                            <span class="current-price">₹79.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-3 col-sm-6">
-                                <div class="single-product">
-                                    <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-4.jpg" alt="product Image 5">
-                                        </router-link>
-
-                                        <!-- <div class="action-links">
-                                            <ul>
-                                                <li><a href="cart.html" data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>
-                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                    <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
-                                        <div class="price-box">
-                                            <span class="current-price">₹79.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-3 col-sm-6">
-                                <div class="single-product">
-                                    <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-3.jpg" alt="product Image 6">
-                                        </router-link>
-
-                                        <!-- <div class="action-links">
-                                            <ul>
-                                                <li><a href="cart.html" data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>
-                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                    <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
-                                        <div class="price-box">
-                                            <span class="current-price">₹79.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-3 col-sm-6">
-                                <div class="single-product">
-                                    <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-2.jpg" alt="product Image 7">
-                                        </router-link>
-
-                                        <!-- <div class="action-links">
-                                            <ul>
-                                                <li><a href="cart.html" data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>
-                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                    <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
-                                        <div class="price-box">
-                                            <span class="current-price">₹79.00</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="col-lg-3 col-sm-6">
-                                <div class="single-product">
-                                    <div class="product-image">
-                                        <router-link to="#">
-                                            <img src="@/assets/images/product/product-1.jpg" alt="product Image 8">
-                                        </router-link>
-
-                                        <!-- <div class="action-links">
-                                            <ul>
-                                                <li><a href="cart.html" data-tooltip="tooltip" data-placement="left" title="Add to cart"><i class="icon-shopping-bag"></i></a></li>
-                                                <li><a href="compare.html" data-tooltip="tooltip" data-placement="left" title="Compare"><i class="icon-sliders"></i></a></li>
-                                                <li><a href="wishlist.html" data-tooltip="tooltip" data-placement="left" title="Add to Wishlist"><i class="icon-heart"></i></a></li>
-                                                <li><a href="javascript:void(0);" data-tooltip="tooltip" data-placement="left" title="Quick View" data-toggle="modal" data-target="#exampleModal"><i class="icon-eye"></i></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                    <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
-                                        <h4 class="product-name"><router-link to="#">Foxglove Flower</router-link></h4>
+                                        <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">Foxglove Flower</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">₹79.00</span>
                                         </div>
