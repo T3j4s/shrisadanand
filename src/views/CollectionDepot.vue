@@ -35,7 +35,7 @@
                                     <span class="total-amount">{{person.location}}</span>
                                 </td>
                                 <td class="total">
-                                    <a class="total-amount">{{person.contact}}</a>
+                                    <a class="total-amount" :href="`tel:${person.contact}`" >{{person.contact}}</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -52,7 +52,7 @@ export default {
     return {
       data:[],
 englishPersons : [
-{id:"1", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"७४००३२६८४७" },
+{id:"1", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"7400326847" },
 {id:"2",  "name":"श्री. अजित मेहेर", "location":"आगाशी विरार", "contact":"८७९६४०३७१९" },
 {id:"3",  "name":"श्री. बाबूराव गावड", "location":"केळवा रोड सफाळा", "contact":"९५१८९९५७४३"},
 {id:"4",  "name":"श्री. दयानंद म्हाञे", "location":"जूचंद्र वसई", "contact":"९२७३११६१७२" },

@@ -7,9 +7,9 @@ import CollectionDepot from '../views/CollectionDepot.vue'
 import AboutAashram from '../views/AboutAashram.vue'
 import About from '../views/About.vue'
 import ContactUs from '../views/ContactUs.vue'
-import AbhayTablet from '../views/AbhayTabletProduct'
+//import AbhayTablet from '../views/AbhayTabletProduct'
 import GurjoKadha from '../views/GurjoKadhaProduct'
-import HaridraTablet from '../views/HaridraTabletProduct'
+//import HaridraTablet from '../views/HaridraTabletProduct'
 import NityanandDantManjan from '../views/NityanandDantManjanProduct'
 import SadanandPChurna from '../views/SadanandPChurnaProduct'
 import ShriGovindOil from '../views/ShriGovindOilProduct'
@@ -66,21 +66,21 @@ const routes = [
       name: 'ContactUs',
       component: ContactUs
     },
-    {
-      path: 'abhayTablet',
-      name: 'abhayTablet',
-      component: AbhayTablet
-    },
+    // {
+    //   path: 'abhayTablet',
+    //   name: 'abhayTablet',
+    //   component: AbhayTablet
+    // },
     {
       path: 'gurjoKadha',
       name: 'gurjoKadha',
       component: GurjoKadha
     },
-    {
-      path: 'haridraTablet',
-      name: 'haridraTablet',
-      component: HaridraTablet
-    },
+    // {
+    //   path: 'haridraTablet',
+    //   name: 'haridraTablet',
+    //   component: HaridraTablet
+    // },
     {
       path: 'nityanandDantManjan',
       name: 'nityanandDantManjan',

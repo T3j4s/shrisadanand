@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center">page under development</h1>
+    <h1 class="text-center">Comming Soon</h1>
   </div>
 </template>
 

@@ -16,7 +16,7 @@
         <!--Contact Map Start-->
         <div class="contact-map">
             <div id="contact-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30124.483844112827!2d72.8223529024437!3d19.301470556564535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b1d20c502d61%3A0x577a571b77526921!2sBhayandar%20Police%20Station!5e0!3m2!1sen!2sin!4v1619858732631!5m2!1sen!2sin" width="100%" height="500" allowfullscreen="true" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.019580159162!2d73.01322871490773!3d19.497793386847345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a0bda1de6fe3%3A0x96006abb861ea2fb!2sSadguru%20Dham!5e0!3m2!1sen!2sin!4v1620922088026!5m2!1sen!2sin" width="100%" height="500" allowfullscreen="true" loading="lazy"></iframe>
             </div>
         </div>
         <!--Contact Map End-->
@@ -40,7 +40,7 @@
                                 <div class="single-contact-info text-center">
                                     <i class="fa fa-fax"></i>
                                     <h4 class="title"> {{$t('footer.address.name')}} </h4>
-                                    <p>{{$t('footer.address.line1')}}<br> {{$t('footer.address.line2')}}<br> {{$t('footer.address.line3')}}</p>
+                                    <p>{{$t('footer.address.line1')}}<br> {{$t('footer.address.line2')}}<br> {{$t('footer.address.line3')}}<br> {{$t('footer.address.line4')}}</p>
                                 </div>
                             </div>
                             <div class="col-sm-4">

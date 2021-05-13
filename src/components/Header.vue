@@ -48,7 +48,7 @@
                                             <a href="#">{{ $t('navigation.about.name') }}</a>
                                             <ul class="sub-menu">
                                                 <li><router-link :to="`/${$i18n.locale}/aboutmaharaj`">{{ $t('navigation.about.submenu1') }}</router-link></li>
-                                                <li><router-link :to="`/${$i18n.locale}/aboutaashram`">{{ $t('navigation.about.submenu2') }}</router-link></li>
+                                                <li><a href="http://www.balyogisadanandmaharaj.in/" target="_blank">{{ $t('navigation.about.submenu2') }}</a></li>
                                             </ul>
                                         </li>
                                         <li><router-link :to="`/${$i18n.locale}/contactus`">{{ $t('navigation.contact') }}</router-link></li>
@@ -222,7 +222,7 @@
                             <a href="#">{{ $t('navigation.about.name') }}</a>
                             <ul class="sub-menu">
                                 <li><a :href="`/${$i18n.locale}/aboutmaharaj`">{{ $t('navigation.about.submenu1') }}</a></li>
-                                <li><a :href="`/${$i18n.locale}/aboutaashram`">{{ $t('navigation.about.submenu2') }}</a></li>
+                                <li><a href="http://www.balyogisadanandmaharaj.in/" target="_blank">{{ $t('navigation.about.submenu2') }}</a></li>
                             </ul>
                         </li>
                         <li><a :href="`/${$i18n.locale}/contactus`">{{ $t('navigation.contact') }}</a></li>
@@ -233,9 +233,8 @@
             <div class="header-social">
                 <ul class="social">
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.instagram.com/balyogi_shri_sadanand_maharaj/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                 </ul>
             </div>
 

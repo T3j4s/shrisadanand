@@ -31,6 +31,9 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="@/assets/images/product/GurjoKadha2.jpg" alt="Product Image">
     </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="@/assets/images/product/GurjoKadha3.jpg" alt="Product Image">
+    </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -332,7 +335,7 @@ export default {
   computed:{
 	  price: function() {
 		  if(this.selected == "100ml") {
-			  return 100
+			  return 125
 		  }
 		  else if(this.selected == "200ml") {
 			  return 200

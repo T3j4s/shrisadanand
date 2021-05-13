@@ -6,7 +6,7 @@
 
                     <!--Right Start-->
                     <div class="copyright-content">
-                        <p>{{ $t('bottomfooter.copyright') }} &copy; <router-link :to="`/${$i18n.locale}/externallink`">{{ $t('bottomfooter.company') }}</router-link>{{ $t('bottomfooter.rights') }}</p>
+                        <p>{{ $t('bottomfooter.copyright') }} &copy; <a href="http://www.balyogisadanandmaharaj.in/" target="_blank">{{ $t('bottomfooter.company') }}</a>{{ $t('bottomfooter.rights') }}</p>
                     </div>
                     <!--Right End-->
 

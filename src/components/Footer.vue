@@ -15,7 +15,7 @@
                                 <div class="widget-social">
                                     <ul>
                                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="https://www.instagram.com/balyogi_shri_sadanand_maharaj/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
                                     </ul>
                                 </div>
@@ -48,6 +48,7 @@
                                         <li>{{ $t('footer.address.line1') }}</li>
                                         <li>{{ $t('footer.address.line2') }}</li>
                                         <li>{{ $t('footer.address.line3') }}</li>
+                                        <li>{{ $t('footer.address.line4') }}</li>
                                     </ul>
                                 </div>
                             </div>

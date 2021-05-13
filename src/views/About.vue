@@ -15,13 +15,13 @@
         <!--Page Banner End-->
 
         <!--About Start-->
-        <div class="about-page-area section-padding" style="margin-bottom:6.5rem">
+        <div class="about-page-area section-padding" style="margin-bottom:5.5rem">
             <div class="container">
                 <figure>
                     <div class="about-thumb">
                         <img src="@/assets/images/about/about.jpg" alt="Image">
                     </div>
-                    <figcaption class="about-page-content text-center">
+                    <figcaption class="about-page-content">
                         <!-- <h2 class="title">{{$t('about.aboutpage.title')}}</h2> -->
                         <p>{{$t('about.aboutpage.para1')}}</p>
                         <p>{{$t('about.aboutpage.para2')}}</p>
@@ -35,6 +35,7 @@
             </div>
         </div>
         <!--About End-->
+        
 </template>
 
 <script>

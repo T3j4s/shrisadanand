@@ -59,13 +59,13 @@
                             <div class="thumb-price">
 								<div class="row">
 								<div class="col-sm-12 col-lg-5">
-									<span class="current-price">₹{{price}}</span>
+									<span class="current-price">{{$t('products.product4.price')}}</span>
                                 	<!-- <span class="old-price">₹{{Number(price)+50}}</span> -->
                                 	<!-- <span class="discount">-34%</span> -->
 								</div>								
 								
 								</div>
-								<div class="row mt-2">
+								<!-- <div class="row mt-2">
 									<div class="col-sm-6 col-lg-5">
 									<span style="font-size:22px">Qty:  </span>
 									<select name="quantity" id="quantity" v-model="selected">
@@ -74,7 +74,7 @@
 									<option value="450ml">450ml</option>
 									</select>
 								</div>
-								</div>
+								</div> -->
                             </div>
                             <div>
 								<p>
@@ -86,8 +86,8 @@
 									 <p>
 										 <ul class="bullets">
 											<li>{{$t('products.product4.description.indication.line1')}}</li> 
-											<li>{{$t('products.product4.description.indication.line2')}}</li>
-											<li>{{$t('products.product4.description.indication.line3')}}</li>
+											<!-- <li>{{$t('products.product4.description.indication.line2')}}</li>
+											<li>{{$t('products.product4.description.indication.line3')}}</li> -->
 										</ul>
 									 </p>
 								</div>
@@ -102,15 +102,15 @@
 									<p>
 										<ul class="bullets">
 											<li v-html="$t('products.product4.description.dosage.line1')"></li> 
-											<li v-html="$t('products.product4.description.dosage.line2')"></li>
-											<li v-html="$t('products.product4.description.dosage.line3')"></li>
+											<!-- <li v-html="$t('products.product4.description.dosage.line2')"></li>
+											<li v-html="$t('products.product4.description.dosage.line3')"></li> -->
 										</ul>
 									</p>
 								</div>
 
-								<p>
+								<!-- <p>
 								<span class="font-weight-bold">{{$t('products.product4.description.note.name')}}</span> {{$t('products.product4.description.note.text')}}
-								</p>																  
+								</p>																   -->
 
 								<p>
 									{{$t('products.product4.orderText')}}

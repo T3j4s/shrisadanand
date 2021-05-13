@@ -1,3 +1,257 @@
 {
-    "message": "हॅलो वर्ल्ड"
+  "upperheader":{
+    "text1":"।। राम ।।"
+  },
+  "navigation":{
+    "home":"मुख्यपृष्ठ",
+    "product":{
+      "name":"उत्पादने",
+      "submenu1":"रोग प्रतिकारशक्ती बूस्टर उत्पादने",
+      "submenu2":"कॉम्बो उत्पादने"
+    },
+    "aboutayurveda":"आयुर्वेद बद्दल",
+    "about": {
+      "name":"बद्दल",
+      "submenu1":"महाराजांबद्दल",
+      "submenu2":"आश्रमाबद्दल"
+    },
+    "collectiondepot":"संग्रह डेपो",
+    "contact":"संपर्क",
+    "language":{
+      "english":"इंग्रजी",
+      "marathi":"मराठी",
+      "hindi":"हिंदी"
+    }
+  },
+  "products":{
+    "title":"रोग प्रतिकारशक्ती बूस्टर उत्पादने",
+    "description":"आयुर्वेदिक मालमत्ता औषध",
+    "product1":{
+      "name":"Abhay Tablet",
+      "price":"₹100.00",
+      "oldprice":"₹150.00",
+      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
+      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
+      "description":{
+        "indication":{
+          "name":"Indication:",
+          "line1":"for Tridhosha Shudhhi & Immunity development.",
+          "line2":"Also beneficial in alleviating snoring.",
+          "line3":"Safe and Effective for Pregnant Woman."
+        },
+        "ingridents":{
+          "name":"Ingredients : Each bottle contains:",
+          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
+        },
+        "dosage":{
+          "name":"Dosage:",
+          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
+          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
+          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
+        },
+        "note":{
+          "name":"Note—",
+          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
+        }
+      }
+    },
+    "product2":{
+      "name":"गुर्जो काढा",
+      "price":"₹125.00",
+      "oldprice":"₹150.00",
+      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
+      "orderText":"ऑर्डर करण्यासाठी किंवा तुमच्या शहरातील श्री सदानंद औषधी उपलब्धी केंद्राच्या माहितीसाठी क्लिक करा.",
+      "description":{
+        "indication":{
+          "name":"संकेत:",
+          "line1":"त्रिदोष शुद्धीकरण, रोग प्रतिकारक शक्ती तसेच क्षमता वाढविण्यासाठी उपयोगी. ",
+          "line2":"घोरणे कमी करून श्वसन क्रिया सुरळीत करते.",
+          "line3":"गर्भवती महिलांसाठी सुरक्षित आणि प्रभावी."
+        },
+        "ingridents":{
+          "name":"Ingredients : Each bottle contains:",
+          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
+        },
+        "dosage":{
+          "name":"Dosage:",
+          "line1":"<span class='text-danger'>बाळांसाठी:</span> अर्धा चमचा रिकाम्या पोटी दिवसातून २ वेळा,",
+          "line2":"<span class='text-danger'>मुलांसाठी :</span> १ चमचा रिकाम्या पोटी दिवसातून २ वेळा,",
+          "line3":"<span class='text-danger'>मोठ्यांसाठी :</span> २ चमचे रिकाम्या पोटी दिवसातून २ वेळा किंवा डॉक्टरांच्या सल्यानुसार घ्यावे."
+        },
+        "note":{
+          "name":"सूचना —",
+          "text":"गुर्जो काढा घ्यायच्या २ तास अगोदर आणि नंतर काहीही खाऊ नये."
+        }
+      }
+    },
+    "product3":{
+      "name":"Haridra Tablet",
+      "price":"₹100.00",
+      "oldprice":"₹150.00",
+      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
+      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
+      "description":{
+        "indication":{
+          "name":"Indication:",
+          "line1":"for Tridhosha Shudhhi & Immunity development.",
+          "line2":"Also beneficial in alleviating snoring.",
+          "line3":"Safe and Effective for Pregnant Woman."
+        },
+        "ingridents":{
+          "name":"Ingredients : Each bottle contains:",
+          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
+        },
+        "dosage":{
+          "name":"Dosage:",
+          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
+          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
+          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
+        },
+        "note":{
+          "name":"Note—",
+          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
+        }
+      }
+    },
+    "product4":{
+      "name":"नित्यानंद दंत मंजन",
+      "price":"₹100.00",
+      "oldprice":"₹150.00",
+      "translation":"गैरिक, पिपली, सैंधव मीठ, शरपुंखा, पुदिना फूल, यष्टिमधु, मजूफळ आणि बकुळच्या औषधी गुणांनी संपन्न",
+      "orderText":"ऑर्डर करण्यासाठी किंवा तुमच्या शहरातील श्री सदानंद औषधी उपलब्धी केंद्राच्या माहितीसाठी क्लिक करा .",
+      "description":{
+        "indication":{
+          "name":"संकेत:",
+          "line1":"श्वसन क्रिया सुरळीत करते , हिरड्या व दात मजबूत करते , मुख दुर्गंधी दूर करते .",
+          "line2":"",
+          "line3":""
+        },
+        "ingridents":{
+          "name":"Ingredients : Each bottle contains:",
+          "text":"Each 100 gram contains: Gairik churns (Gairik : Shuddha) 10 gm, Pippali Fr. (Piperlongum Fr.) 10 gm,Saindhavchurna (Sodii chloridum) 10 gm, Chebulic myrobalan Fr.pulp (Terminalia chebula : Fr.) 10 gm, Pudina phool (Mentha spicata:) 10 gm, Sharapunkha / unhali Sds. (Tephrosia purpurea : sds.) 10 gm, Yeshhmadhu Rt. (Glycyrihza glabra : Rt.) 10 gm, Baku! chhal (Mimusops alengi : Bk.) 10 gm, Maiphal chal (Quercus infectoria: Bk.) 10 gm "
+        },
+        "dosage":{
+          "name":"डोस:",
+          "line1":"दंत मंजन दिवसातून २ वेळा दात आणि हिरड्यांवर घासावे , किंवा डॉक्टरांच्या सल्यानुसार घ्यावे.",
+          "line2":" ",
+          "line3":" "
+        },
+        "note":{
+          "name":"Note—",
+          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
+        }
+      }
+    },
+    "product5":{
+      "name":"सदानंद - पी चूर्ण ",
+      "price":"₹130.00",
+      "oldprice":"₹150.00",
+      "translation":"अश्वगंधा, गवती चहा, आलं, वेलची, लवंग, काळी मिरी,अर्जुन आणि जायफळचा आयुर्वेदिक गुणकारी काढा",
+      "orderText":"ऑर्डर करण्यासाठी किंवा तुमच्या शहरातील श्री सदानंद औषधी उपलब्धी केंद्राच्या माहितीसाठी क्लिक करा.",
+      "description":{
+        "indication":{
+          "name":"संकेत:",
+          "line1":"सर्दी, खाशी, ताप आणि कफज व्याधीवर परीणामकारक",
+          "line2":"शरीराची संसर्ग जन्य रोग प्रतिकारक शक्ती वाढविते , आम्लपित्त (ऍसिडिटी) आणि उल्टी यावर अत्यंत लाभदायक ",
+          "line3":"दृष्टी सुधारण्यासाठी फायदेशीर , मूत्रपिंडांचे कार्य अधिक चांगले करते , श्वसन आणि रक्त परिसंचरण सुधारित करा , हे सर्व यामधून आपल्याला दिवसभर क्रियाशील राहण्यास आणि रात्री झोप सुधारण्यास मदत करते. वर्षभर सर्व वयोगटासाठी उपयुक्त.",
+          "line4":"हृदयाला बळकटी देते "
+        },
+        "ingridents":{
+          "name":"Ingredients : Each bottle contains 1gm:",
+          "text":"Black pepper Fr. (Piper Nigrum : Fr.) 10 mg, Ashwagandha Rt. (Withania somnifera :Rt.) 200 mg, Chhoti elaichi sd. (Elettaria Cardamomum : sd.) 5 mg, Jaipal suddha sd. (Croton Tiglium : sd.) 5 mg, Adrak Rz. (Zingiber Officibale : Rz) 20 mg, Lavang churna (Syzygium Aromaticum : powder) 5 mg, Kankol / Kabab Chini Churna (Piper Cubeba : churna) 5 mg, Taravad Fl. (Cassia Auriculata : FL)400 mg, Arjun Bk. (Terminalia Arjuna : Bk.) 150 mg, Gavathi chai Lf. (Cymbopogon Flexuosus : Lf.) 200 mg, Preservative - QS"
+        },
+        "dosage":{
+          "name":"डोस:",
+          "line1":"१ चमचा चूर्ण २ कप पाणी किंवा दुधामध्ये उकळून घ्यावे .,",
+          "line2":"साखर अथवा गूळ आपल्या चवीनुसार , किंवा डॉक्टरांच्या सल्यानुसार घ्यावे.,",
+          "line3":" "
+        },
+        "note":{
+          "name":"Note—",
+          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
+        }
+      }
+    },
+    "product6":{
+      "name":"श्री गोविंद तेल",
+      "price":"₹120.00",
+      "oldprice":"₹150.00",
+      "translation":"गुणकारी पुदीना, ओवा आणि कापूर चे प्रभावी तेल",
+      "orderText":"ऑर्डर करण्यासाठी किंवा तुमच्या शहरातील श्री सदानंद औषधी उपलब्धी केंद्राच्या माहितीसाठी क्लिक करा.",
+      "description":{
+        "indication":{
+          "name":"संकेत:",
+          "line1":"सर्दी, खाशी आणि कफज व्याधींवर वाफ घेण्यासाठी अत्यंत उपयोगी , जठरासंबंधी विकारांकर लाभदायक.",
+          "line2":"",
+          "line3":""
+        },
+        "ingridents":{
+          "name":"Ingredients : Each 50 ml oil contains :",
+          "text":"Pudina Phool (Mentha spicata) 20 gm wain sat (Trachyspennum ammi Linn) 15 gm Kanpur (Dryobalaobs camphora) 15 gm"
+        },
+        "dosage":{
+          "name":"डोस:",
+          "line1":"पोटात गॅसची समस्या असेल तर श्री गोविंद तेलाचे ३-४ थेंब ३० मि ली पाण्यामध्ये मिसळून दिवसातून ३ वेळा प्यावे",
+          "line2":"श्वसन क्रियेत अत्यंत गुणकारी.  श्वसन प्रक्रियेत अडथळा असल्यास गरम पाण्यात २ ते ३ थेंब टाकून वाफ घेतल्यास अत्यंत गुणकारी. नियमित वापरात येणाऱ्या मास्क वर २ थेंब टाकून मास्क लावल्यास श्वसन क्रिया सुरळीत ठेवते आणि हवेतील जंतू पासून बचाव करते , किंवा डॉक्टरांच्या सल्यानुसार घ्यावे.",
+          "line3":""
+        },
+        "note":{
+          "name":"Note—",
+          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
+        }
+      }
+    }
+  },
+  "about":{
+    "title":"ABOUT SHRI SADANAND",
+    "buttontext":"Know More",
+    "aboutpage":{
+      "para1":"त्रैलोक्याचे स्वामी श्री महादेव आणि श्री भगवान परशुराम यांच्या पदस्पर्शाने पावन झालेल्या भूमीत अर्थात श्री क्षेत्र तुंगारेश्वर स्थित श्री बालयोगी सदानंद महाराज यांच्या योग साधनेतून आणि त्यांनी मागील ४८ वर्षात जोपासलेल्या आयुर्वेदाच्या प्रदिर्घ अभ्यासातून विविध व्याधी आणि आजारांवर विविध औषधांची निर्मिती केली आहे.",
+      "para2":"‘हे विश्वची माझे घर’ संकल्पना जोपासणा-या आपल्या श्री संत श्रेष्ठ ज्ञानेश्वर माऊलींचा वारसा महाराजांनी जोपासत अध्यात्म आणि औषोधोपचार यांवर भर देत सर्व विश्व कल्याणासाठी औषधांची निर्मिती करुन समाज कल्याणाचे शुध्द हेतू मनात बाळगुन हे शुभकार्य करीत आहेत.",
+      "para3":"सदर औषधांच्या निर्मितीसाठी ‘नित्यानंद फ़ार्मसी’ अर्थात बालयोगी श्री सदानंद महाराज सिध्द वनस्पती उपचार केंद्र संस्था या संस्थेची स्थापना करुन सदर संस्थेच्या नावे अन्न व औषधे प्रशासन (FDA) द्वारा मान्यता घेऊनच सदर समाज कल्याणाचे कार्य सुरु आहे. सदर कार्य औषधांसोबत उपचार करणे हेतू  वैद्यकिय व्यवस्था देखील तैनात आहे. ही संस्था मागील कित्येक वर्ष बाबांच्या मार्गदर्शनाखाली कार्यरत आहे.",
+      "para4":"संस्थेमार्फत परिसरातील कित्येक गरजू पीडित लोकांसाठी औषोधोपचाराचे कार्य सुरु  आहे. महाराजांना असणारी आयुर्वेदातील आवड जिज्ञासा आणि थोर तपश्चर्या आणि आयुर्वेद ग्रंथ अर्थात अष्टांग ह्रदय, अष्टांग संग्रह, शुशृत संहिता, चरक संहिता आणि तत्सम ग्रंथांचा अभ्यास यातून औषध निर्मिती होते. तुंगारेश्वर परिसरात असणारी वनस्पती यांचा गाढा अभ्यास महाराजांना आहे. मागील ४८ वर्षांच्या काळात महाराजांनी विविध रोगांवर उपचार साठी कार्य सतत चालू आहे. ‘जन सेवा हिच ईश्वर सेवा’ हे महाराजांचे ब्रीद आहे. त्यासाठी लागणारी समाजातील सर्व स्तरातील लोकांवर उपचार नित्यानंद फ़ार्मसी करीत आहे. महाराजांच्या आशिर्वादाने आणि औषधाने आज कित्येक लोक विविध रोगांतून व्याधी मुक्त झाले आहेत."
+    }
+  },
+  "testimonials":{
+    "candidate1":{
+      "name":"Rohit Sharma / CEO",
+      "description":"Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium."
+    },
+    "candidate2":{
+      "name":"Virat Kolhi / Co-Founder",
+      "description":"Felis eu pede mollis pretium. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus lingua. felis eu pede mollis pretium."
+    }
+  },
+  "contactpage":{
+    "title":"Contact Us",
+    "sendMessage":"SEND MESSAGE"
+  },
+  "footer":{
+    "footertext":"आयुर्वेदिक मालमत्ता औषध",
+    "quicklinks":{
+      "name":"द्रुत दुवे",
+      "link1":"मुख्यपृष्ठ",
+      "link2":"उत्पादने",
+      "link3":"आयुर्वेद बद्दल",
+      "link4":"बद्दल",
+      "link5":"आमच्याशी संपर्क साधा"
+    },
+    "address":{
+      "name":"पत्ता",
+      "line1":"नित्यानंद फार्मसी,",
+      "line2":"सद्गुरू धाम, गणेशपुरी,",
+      "line3":" तालुका: भिवंडी,",
+      "line4":"जि: ठाणे, महाराष्ट्र"
+    },
+    "contact":{
+      "name":"आमच्याशी संपर्क साधा",
+      "contact":"+91 8828594212"
+    },
+    "email":"Email Address"
+  },
+  "bottomfooter":{
+    "copyright":"Copyright 2021",
+    "company":"SriSadanand",
+    "rights":" . All Rights Reserved"   
   }
+}

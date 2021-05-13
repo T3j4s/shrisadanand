@@ -59,13 +59,13 @@
                             <div class="thumb-price">
 								<div class="row">
 								<div class="col-sm-12 col-lg-5">
-									<span class="current-price">₹{{price}}</span>
+									<span class="current-price">{{$t('products.product5.price')}}</span>
                                 	<!-- <span class="old-price">₹{{Number(price)+50}}</span> -->
                                 	<!-- <span class="discount">-34%</span> -->
 								</div>								
 								
 								</div>
-								<div class="row mt-2">
+								<!-- <div class="row mt-2">
 									<div class="col-sm-6 col-lg-5">
 									<span style="font-size:22px">Qty:  </span>
 									<select name="quantity" id="quantity" v-model="selected">
@@ -74,7 +74,7 @@
 									<option value="450ml">450ml</option>
 									</select>
 								</div>
-								</div>
+								</div> -->
                             </div>
                             <div>
 								<p>

@@ -1,14 +1,13 @@
 {
   "message": "hello world",
   "upperheader":{
-    "text1":"All featured product 50% off",
-    "text2":"Shop Now"
+    "text1":"।। राम ।।"
   },
   "navigation":{
     "home":"Home",
     "product":{
-      "name":"Product",
-      "submenu1":"All Products",
+      "name":"Products",
+      "submenu1":"Immunity Booster Products",
       "submenu2":"Combo Products"
     },
     "aboutayurveda":"About Ayurveda",
@@ -59,7 +58,7 @@
     },
     "product2":{
       "name":"Gurjo Kadha",
-      "price":"₹100.00",
+      "price":"₹125.00",
       "oldprice":"₹150.00",
       "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
       "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
@@ -119,24 +118,24 @@
       "name":"Nityanand Dant Manjan",
       "price":"₹100.00",
       "oldprice":"₹150.00",
-      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
+      "translation":"गैरिक, पिपली, सैंधव मीठ, शरपुंखा, पुदिना फूल, यष्टिमधु, मजूफळ आणि बकुळच्या औषधी गुणांनी संपन्न",
       "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
       "description":{
         "indication":{
           "name":"Indication:",
-          "line1":"for Tridhosha Shudhhi & Immunity development.",
-          "line2":"Also beneficial in alleviating snoring.",
-          "line3":"Safe and Effective for Pregnant Woman."
+          "line1":"Beneficial for strong Gums & Teeth as well as in bad breath.",
+          "line2":"",
+          "line3":""
         },
         "ingridents":{
           "name":"Ingredients : Each bottle contains:",
-          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
+          "text":"Each 100 gram contains: Gairik churns (Gairik : Shuddha) 10 gm, Pippali Fr. (Piperlongum Fr.) 10 gm,Saindhavchurna (Sodii chloridum) 10 gm, Chebulic myrobalan Fr.pulp (Terminalia chebula : Fr.) 10 gm, Pudina phool (Mentha spicata:) 10 gm, Sharapunkha / unhali Sds. (Tephrosia purpurea : sds.) 10 gm, Yeshhmadhu Rt. (Glycyrihza glabra : Rt.) 10 gm, Baku! chhal (Mimusops alengi : Bk.) 10 gm, Maiphal chal (Quercus infectoria: Bk.) 10 gm "
         },
         "dosage":{
           "name":"Dosage:",
-          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
-          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
-          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
+          "line1":"Apply Dant manjan to gums twice a day or as directed by physician",
+          "line2":" ",
+          "line3":" "
         },
         "note":{
           "name":"Note—",
@@ -146,10 +145,10 @@
     },
     "product5":{
       "name":"Sadanand-P Churna",
-      "price":"₹200.00",
+      "price":"₹130.00",
       "oldprice":"₹150.00",
       "translation":"अश्वगंधा, गवती चहा, आलं, वेलची, लवंग, काळी मिरी,अर्जुन आणि जायफळचा आयुर्वेदिक गुणकारी काढा",
-      "orderText":"ऑर्डर करण्यासाठी किंवा तुमच्या शहरातील श्री सदानंद औषधी उपलब्धी केंद्राच्या माहितीसाठी क्लिक करा.",
+      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
       "description":{
         "indication":{
           "name":"Indication:",
@@ -176,10 +175,10 @@
     },
     "product6":{
       "name":"Shri Govind Oil",
-      "price":"₹115.00",
+      "price":"₹120.00",
       "oldprice":"₹150.00",
       "translation":"गुणकारी पुदीना, ओवा आणि कापूर चे प्रभावी तेल",
-      "orderText":"To order the product or get delivered in your area please check the nearest Shri Sadanand Vanaspati Upalabdhi kendra. Click Here.",
+      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
       "description":{
         "indication":{
           "name":"Indication:",
@@ -204,99 +203,8 @@
       }
     }
   },
-  "comboproducts":{
-    "comboproduct1":{
-      "name":"Combo Product 1",
-      "price":"₹100.00",
-      "oldprice":"₹150.00",
-      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
-      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
-      "description":{
-        "indication":{
-          "name":"Indication:",
-          "line1":"for Tridhosha Shudhhi & Immunity development.",
-          "line2":"Also beneficial in alleviating snoring.",
-          "line3":"Safe and Effective for Pregnant Woman."
-        },
-        "ingridents":{
-          "name":"Ingredients : Each bottle contains:",
-          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
-        },
-        "dosage":{
-          "name":"Dosage:",
-          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
-          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
-          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
-        },
-        "note":{
-          "name":"Note—",
-          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
-        }
-      }
-    },
-    "comboproduct2":{
-      "name":"Combo Product 2",
-      "price":"₹100.00",
-      "oldprice":"₹150.00",
-      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
-      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
-      "description":{
-        "indication":{
-          "name":"Indication:",
-          "line1":"for Tridhosha Shudhhi & Immunity development.",
-          "line2":"Also beneficial in alleviating snoring.",
-          "line3":"Safe and Effective for Pregnant Woman."
-        },
-        "ingridents":{
-          "name":"Ingredients : Each bottle contains:",
-          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
-        },
-        "dosage":{
-          "name":"Dosage:",
-          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
-          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
-          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
-        },
-        "note":{
-          "name":"Note—",
-          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
-        }
-      }
-    },
-    "comboproduct3":{
-      "name":"Combo Product 3",
-      "price":"₹100.00",
-      "oldprice":"₹150.00",
-      "translation":"कडुनिंबाच्या अँटी-बॅक्टेरिअल आणि अँटी-व्हायरल घटकांसहित",
-      "orderText":"To order the product or to know visit the nearest Shri Sadanand Aushadhi Upalabdhi kendra. Click Below.",
-      "description":{
-        "indication":{
-          "name":"Indication:",
-          "line1":"for Tridhosha Shudhhi & Immunity development.",
-          "line2":"Also beneficial in alleviating snoring.",
-          "line3":"Safe and Effective for Pregnant Woman."
-        },
-        "ingridents":{
-          "name":"Ingredients : Each bottle contains:",
-          "text":"Adulaa Lf. (Adhatoda Vasica Lf.) 1 gm., Aak Lf. (Calatropis Gigantea Lf.) 1 gm., Neem Lf. (Azadicachta Indic: Lf.) 1 gm., TuIsi Lt. (Ocimurn Sanctum : Lf.) 1 gm.,Amba Lt. (Mangifera Indica : Lf.) 1 gm.,Pangla Lf.(Pogostemom Persiflams Lf.) 1 gm., Bel Lf. (Aegis Marmalos Fmetus Lf.) 1 gm., Seesam Lf. (Black Woodif.) 1 gm., Arnruta St. Tinospora Cardifolia : St) 4 gms., Bleck Pepper Fr. (Piper Nigrum :Fr) 100 mg, Delchini bk. (Ginnamomum Cassia : st. bk.) 100 mg, Gur (Jaggery) 4 ml, Pudina Photo (Menthe Spicata )0S, APvain sat (Trachyspermum Amml lien ) 55, Kapur(131yobalacbs Camphora QS"
-        },
-        "dosage":{
-          "name":"Dosage:",
-          "line1":"<span class='text-danger'>Infants:</span> Half tsp. twice a day on empty stomach,",
-          "line2":"<span class='text-danger'>Children:</span> 1 tsp. twice a day on empty stomach,",
-          "line3":"<span class='text-danger'>Adults:</span> 2 tsp. twice a day on empty stomach or as directed by physician."
-        },
-        "note":{
-          "name":"Note—",
-          "text":"eating anything for 2 hours before and after consumption of Gurjo Kadha"
-        }
-      }
-    }
-  },
   "about":{
     "title":"ABOUT SHRI SADANAND",
-    "description1":"Where flowers are our inspiration to create lasting memories. Whatever the occasion inspiration to create lasting memories.",
-    "description2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non veniam tempore nemo doloribus mollitia magnam similique ratione! Incidunt possimus magni ullam, distinctio nesciunt voluptates commodi dolor ipsa voluptate atque",
     "buttontext":"Know More",
     "aboutpage":{
       "para1":"In the land sanctified by the touch of Swami Shri Mahadev and Shri Bhagwan Parashuram of Trilokya, i.e. Shri Kshetra Tungareshwar, Shri Balayogi Sadanand Maharaj's yoga practice and his long practice of Ayurveda for the last 48 years have produced various medicines for various ailments and diseases.",
@@ -362,9 +270,10 @@
     },
     "address":{
       "name":"ADDRESS",
-      "line1":"Nityanand Pharmacy Sadguru Dham,",
-      "line2":"Ganeshpuri, Tal.: Bhiwandi,",
-      "line3":"Dist:Thane, Maharashtra"
+      "line1":"Nityanand Pharmacy,",
+      "line2":"Sadguru Dham,Ganeshpuri,",
+      "line3":" Taluka: Bhiwandi,",
+      "line4":"Dist:Thane, Maharashtra"
     },
     "contact":{
       "name":"CONTACT US",

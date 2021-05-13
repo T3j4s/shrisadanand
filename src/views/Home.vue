@@ -5,6 +5,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -15,6 +16,9 @@
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="@/assets/images/slider/slider-3.jpg" alt="banner 3">
+    </div>
+	<div class="carousel-item">
+      <img class="d-block w-100" src="@/assets/images/slider/slider-4.jpg" alt="banner 4">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -84,31 +88,21 @@
                 <div class="product-wrapper">
                     <div class="swiper-container product-active">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
                                         <router-link :to="`/${$i18n.locale}/abhayTablet`">
                                             <img src="@/assets/images/product/AbhayTablet.jpg" alt="Image">
                                         </router-link>
-                                        <!-- <span class="sticker-new soldout-title">Soldout</span> -->
-
                                     </div>
                                     <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
                                         <h4 class="product-name"><router-link :to="`/${$i18n.locale}/abhayTablet`">{{ $t('products.product1.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product1.price') }}</span>
-                                            <!-- <span class="old-price">{{ $t('products.product1.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
@@ -134,31 +128,22 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <!-- <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
                                         <router-link :to="`/${$i18n.locale}/haridraTablet`">
                                             <img src="@/assets/images/product/HaridraTablet.jpg" alt="Image">
                                         </router-link>
-                                        <!-- <span class="sticker-new soldout-title">Soldout</span> -->
 
                                     </div>
                                     <div class="product-content text-center">
-                                        <!-- <ul class="rating">
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                            <li class="rating-on"><i class="fa fa-star-o"></i></li>
-                                        </ul> -->
                                         <h4 class="product-name"><router-link :to="`/${$i18n.locale}/haridraTablet`">{{ $t('products.product3.name') }}</router-link></h4>
                                         <div class="price-box">
                                             <span class="current-price">{{ $t('products.product3.price') }}</span>
-                                            <!-- <span class="old-price">{{ $t('products.product3.oldprice') }}</span> -->
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="swiper-slide">
                                 <div class="single-product">
                                     <div class="product-image">
@@ -259,8 +244,8 @@
                         <div class="about-content">
                             <br>
                             <h2 class="title">{{ $t('about.title') }}</h2>
-                            <p>{{ $t('about.description1') }}</p>
-                            <p>{{ $t('about.description2') }}</p>
+                            <p>{{ $t('about.aboutpage.para1') }}</p>
+                            <!-- <p>{{ $t('about.aboutpage.para2') }}</p> -->
                             <!-- <ul>
                                 <li> Hand picked just for you. </li>
                                 <li> Hand picked just for you. </li>
@@ -285,22 +270,47 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="single-testimonial text-center">
-                                <p>{{ $t('testimonials.candidate1.description') }}</p>
+                                <!-- <p>{{ $t('testimonials.candidate1.description') }}</p>
 
                                 <div class="testimonial-author">
                                     <img src="@/assets/images/testimonial-img-1.png" alt="">
                                     <span class="author-name">{{ $t('testimonials.candidate1.name') }}</span>
-                                </div>
+                                </div> -->
+								<iframe class="testimonial-video" src="https://www.youtube.com/embed/3r2nP2kt2vY" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class="single-testimonial text-center">
-                                <p>{{ $t('testimonials.candidate2.description') }}</p>
+                                <!-- <p>{{ $t('testimonials.candidate2.description') }}</p>
 
                                 <div class="testimonial-author">
                                     <img src="@/assets/images/testimonial-img-2.png" alt="">
                                     <span class="author-name">{{ $t('testimonials.candidate2.name') }}</span>
-                                </div>
+                                </div> -->
+								<iframe class="testimonial-video" src="https://www.youtube.com/embed/cKoauAypqnc" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+						                        <div class="swiper-slide">
+                            <div class="single-testimonial text-center">
+                                <!-- <p>{{ $t('testimonials.candidate2.description') }}</p>
+
+                                <div class="testimonial-author">
+                                    <img src="@/assets/images/testimonial-img-2.png" alt="">
+                                    <span class="author-name">{{ $t('testimonials.candidate2.name') }}</span>
+                                </div> -->
+								<iframe class="testimonial-video" src="https://www.youtube.com/embed/9rFSWzZYhuM" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+						<div class="swiper-slide">
+                            <div class="single-testimonial text-center">
+                                <!-- <p>{{ $t('testimonials.candidate2.description') }}</p>
+
+                                <div class="testimonial-author">
+                                    <img src="@/assets/images/testimonial-img-2.png" alt="">
+                                    <span class="author-name">{{ $t('testimonials.candidate2.name') }}</span>
+                                </div> -->
+								<iframe class="testimonial-video" src="https://www.youtube.com/embed/A3nftN1_H5E" title="YouTube video player" frameborder="0" allow="accelerometer;clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </div>
@@ -318,6 +328,13 @@
 
 
 </template>
+
+<style scoped>
+.testimonial-video {
+	width:80%;
+	height:400px
+}
+</style>
 
 <script>
   //import Swiper JS
