@@ -13,7 +13,7 @@
     "aboutayurveda":"About Ayurveda",
     "about": {
       "name":"About",
-      "submenu1":"About Maharaj",
+      "submenu1":"About Us",
       "submenu2":"About Aashram"
     },
     "collectiondepot":"Collection Depot",
@@ -26,7 +26,7 @@
   },
   "products":{
     "title":"Immunity Booster Products",
-    "description":"An Ayurvedic Property Medicine",
+    "description":"An Ayurvedic Proprietary Medicine",
     "product1":{
       "name":"Abhay Tablet",
       "price":"₹100.00",
@@ -259,13 +259,13 @@
       ]
   },
   "footer":{
-    "footertext":"An Ayurvedic Property Medicine",
+    "footertext":"An Ayurvedic Proprietary Medicine",
     "quicklinks":{
       "name":"quick links",
       "link1":"Home",
       "link2":"Products",
       "link3":"About Ayurveda",
-      "link4":"About",
+      "link4":"About Us",
       "link5":"Contact Us"
     },
     "address":{

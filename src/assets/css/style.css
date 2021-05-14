@@ -2034,13 +2034,13 @@ blockquote p {
 /*  3.1 - Header Top CSS
 /*----------------------------------------*/
 .top-notification-bar {
-  -webkit-background: -webkit-gradient(linear, left top, right top, from(#68923e), to(#68923e));
-  -webkit-background: -webkit-linear-gradient(left, #68923e 0%, #68923e 100%);
-  -moz-background: linear-gradient(to right, #68923e 0%, #68923e 100%);
-  -ms-background: linear-gradient(to right, #68923e 0%, #68923e 100%);
-  -o-background: -o-linear-gradient(left, #68923e 0%, #68923e 100%);
-  background: -webkit-gradient(linear, left top, right top, from(#68923e), to(#68923e));
-  background: linear-gradient(to right, #68923e 0%, #68923e 100%);
+  -webkit-background: -webkit-gradient(linear, left top, right top, from(	#ec7c00), to(	#ec7c00));
+  -webkit-background: -webkit-linear-gradient(left, 	#ec7c00 0%, 	#ec7c00 100%);
+  -moz-background: linear-gradient(to right, 	#ec7c00 0%, 	#ec7c00 100%);
+  -ms-background: linear-gradient(to right, 	#ec7c00 0%, 	#ec7c00 100%);
+  -o-background: -o-linear-gradient(left, 	#ec7c00 0%, 	#ec7c00 100%);
+  background: -webkit-gradient(linear, left top, right top, from(	#ec7c00), to(	#ec7c00));
+  background: linear-gradient(to right, 	#ec7c00 0%, 	#ec7c00 100%);
   position: relative;
   padding: 10px 0;
 }

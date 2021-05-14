@@ -6,13 +6,13 @@
     "home":"मुख्यपृष्ठ",
     "product":{
       "name":"उत्पादने",
-      "submenu1":"रोग प्रतिकारशक्ती बूस्टर उत्पादने",
+      "submenu1":"रोग प्रतिकारक औषधे",
       "submenu2":"कॉम्बो उत्पादने"
     },
     "aboutayurveda":"आयुर्वेद बद्दल",
     "about": {
       "name":"बद्दल",
-      "submenu1":"महाराजांबद्दल",
+      "submenu1":"आमच्याबद्दल",
       "submenu2":"आश्रमाबद्दल"
     },
     "collectiondepot":"संग्रह डेपो",
@@ -24,8 +24,8 @@
     }
   },
   "products":{
-    "title":"रोग प्रतिकारशक्ती बूस्टर उत्पादने",
-    "description":"आयुर्वेदिक मालमत्ता औषध",
+    "title":"रोग प्रतिकारक औषधे",
+    "description":"An Ayurvedic Proprietary Medicine",
     "product1":{
       "name":"Abhay Tablet",
       "price":"₹100.00",
@@ -227,13 +227,13 @@
     "sendMessage":"SEND MESSAGE"
   },
   "footer":{
-    "footertext":"आयुर्वेदिक मालमत्ता औषध",
+    "footertext":"An Ayurvedic Proprietary Medicine",
     "quicklinks":{
       "name":"द्रुत दुवे",
       "link1":"मुख्यपृष्ठ",
       "link2":"उत्पादने",
       "link3":"आयुर्वेद बद्दल",
-      "link4":"बद्दल",
+      "link4":"आमच्याबद्दल",
       "link5":"आमच्याशी संपर्क साधा"
     },
     "address":{

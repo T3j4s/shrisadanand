@@ -4,10 +4,10 @@
         <div class="page-banner bg-light">
             <div class="container">
                 <div class="page-banner-content text-center">
-                    <h2 class="title">Immunity Booster Products</h2>
+                    <h2 class="title">{{ $t('navigation.product.submenu1') }}</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
-                        <li class="breadcrumb-item active" aria-current="page">Immunity Booster Products</li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">{{ $t('navigation.home') }}</router-link></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ $t('navigation.product.submenu1') }}</li>
                     </ol>
                 </div>
             </div>

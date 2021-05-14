@@ -4,10 +4,10 @@
         <div class="page-banner bg-light">
             <div class="container">
                 <div class="page-banner-content text-center">
-                    <h2 class="title">About Maharaj</h2>
+                    <h2 class="title">{{ $t('navigation.about.submenu1') }}</h2>
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">Home</router-link></li>
-                        <li class="breadcrumb-item active" aria-current="page">About</li>
+                        <li class="breadcrumb-item"><router-link :to="`/${$i18n.locale}`">{{ $t('navigation.home') }}</router-link></li>
+                        <li class="breadcrumb-item active" aria-current="page">{{ $t('navigation.about.submenu1') }}</li>
                     </ol>
                 </div>
             </div>
