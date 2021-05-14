@@ -18,6 +18,7 @@
     "collectiondepot":"संग्रह डेपो",
     "contact":"संपर्क",
     "language":{
+      "name":"भाषा",
       "english":"इंग्रजी",
       "marathi":"मराठी",
       "hindi":"हिंदी"
@@ -225,6 +226,9 @@
   "contactpage":{
     "title":"Contact Us",
     "sendMessage":"SEND MESSAGE"
+  },
+  "testimonial":{
+    "name":"रुग्णानुभव"
   },
   "footer":{
     "footertext":"An Ayurvedic Proprietary Medicine",

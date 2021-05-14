@@ -9,10 +9,10 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="@/assets/images/slider/slider-1.jpg" alt="Banner 1">
+      <img class="d-block w-100" src="@/assets/images/slider/slider-2.jpg" alt="Banner 1">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="@/assets/images/slider/slider-2.jpg" alt="Banner 2">
+      <img class="d-block w-100" src="@/assets/images/slider/slider-1.jpg" alt="Banner 2">
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="@/assets/images/slider/slider-3.jpg" alt="banner 3">
@@ -21,7 +21,7 @@
       <img class="d-block w-100" src="@/assets/images/slider/slider-4.jpg" alt="banner 4">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
@@ -263,6 +263,9 @@
 
 
         <!--Testimonial Start-->
+		<div>
+			<p class="text-center" style="color:#68923e;font-size:40px;margin-top:100px;">{{ $t('testimonial.name') }}</p>
+		</div>
         <div class="testimonial-area" :style="{backgroundImage: 'url('+require('@/assets/'+'/images/testimonial-bg.jpg')+')'}">
             <!-- style="background-image: url(assets/images/testimonial-bg.jpg);" -->
             <div class="container">

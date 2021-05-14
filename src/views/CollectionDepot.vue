@@ -25,21 +25,27 @@
               </thead>
                         <tbody>
                             <tr v-for="person in data" :key="person.id">
-                                <td class="price">
+                                <td v-if="person.row == true" colspan="4" class="table-row-highlight">{{person.location}}</td>
+                                <td v-if="person.row == false" class="price">
                                     <span class="amount">{{person.id}}</span>
                                 </td>
-                                <td class="price">
+                                <td v-if="person.row == false" class="price">
                                     <span class="amount">{{person.name}}</span>
                                 </td>
-                                <td class="total">
+                                <td v-if="person.row == false" class="total">
                                     <span class="total-amount">{{person.location}}</span>
                                 </td>
-                                <td class="total">
+                                <td v-if="person.row == false" class="total">
                                     <a class="total-amount" :href="`tel:${person.contact}`" >{{person.contact}}</a>
                                 </td>
                             </tr>
                         </tbody>
               </table>
+              <p>
+                 मुंबई, ठाणे, पालघर, रायगड, पुणे आणि नाशिक जिल्ह्यातील औषधांच्या वितरणासाठी इच्छुक गुंतवणूकदारांनी संपर्क साधावा. 
+                  श्री. पुरुषोत्तम पाटील - 9867365535    श्री. प्रकाश पाटील - 9892819975    श्री. सुभाष भाग्यवंत - 88285 94212
+
+              </p>
           </div>
         <!--Wishlist End-->
 </template>
@@ -52,63 +58,71 @@ export default {
     return {
       data:[],
 englishPersons : [
-{id:"1", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"7400326847" },
-{id:"2",  "name":"श्री. अजित मेहेर", "location":"आगाशी विरार", "contact":"8796403719" },
-{id:"3",  "name":"श्री. बाबूराव गावड", "location":"केळवा रोड सफाळा", "contact":"9518995743"},
-{id:"4",  "name":"श्री. दयानंद म्हाञे", "location":"जूचंद्र वसई", "contact":"9273116172" },
-{id:"5",  "name":"श्री. यतीन पाठारे", "location":"कल्याण", "contact":"9870314814" },
-{id:"6",  "name":"श्री. भरत पाटील", "location":"वडवलि वाशिंद", "contact":"9272806867" },
-{id:"7",  "name":"श्री. अरूण शर्मा", "location":"वसई स्टेशन प", "contact":"9930331515" },
-{id:"8",  "name":"श्री. रतन पाटील", "location":"डोंबिवली", "contact":"9867145030" },
-{id:"9",  "name":"श्री. सुभाष भाग्यवंत", "location":"हाजिमलंग", "contact":"8828594212" },
-{id:"10", "name":"श्री. गुरुनाथ भोईर", "location":"मुर्धा भाईदंर", "contact":"9820671826" },
-{id:"11", "name":"श्री. पवन घरत", "location":"गोडदेव भाईदंर", "contact":"9930536663" },
-{id:"12", "name":"श्री. नामदेव पाटिल", "location":"नाडा-वाडा", "contact":"9145472724" },
-{id:"12", "name":"श्री. शैलेश भोईर", "location":"गणेशपुरी", "contact":"8975447111" },
-{id:"14", "name":"श्री. हरिदास संगमेश्वर", "location":"डोंगरपाडा विरार", "contact":"7507691783" },
-{id:"15", "name":"श्री. केतन शाहा", "location":"नाळासोपारा", "contact":"9820735569" },
-{id:"16", "name":"श्री. तुषार सोनार", "location":"इवरशांईन वसई", "contact":"8087521458" },
-{id:"17", "name":"श्री. दयानंद पवार", "location":"अंबाडी खंबाळा", "contact":"9552722816" },
-{id:"18", "name":"श्री. दिपक वारघडे", "location":"बदलापूर", "contact":"9764244280" },
-{id:"19", "name":"श्री. राम पाटील", "location":"भिवंडी-अंबाडी", "contact":"9653254034" },
-{id:"20", "name":"श्री. मुकेश पाटील", "location":"दिवा स्टेशन", "contact":"8655667773" },
-{id:"21", "name":"श्री. साधना पाटील", "location":"जूचंद्र वसई", "contact":"9529912911" },
-{id:"22", "name":"डाॅ. मोनिका नाईक", "location":"सोनाला भिवंडी", "contact":"9619000303" },
-{id:"23", "name":"श्री. जयकिसन पाटील", "location":"राई भाईदंर", "contact":"9224716709" },
-{id:"24", "name":"डाॅ. नंदकुमार पाटील", "location":"मोर्वा भाईदंर", "contact":"9920311258" },
-{id:"25", "name":"श्री. सुधिर पाटील", "location":"राई भाईदंर", "contact":"8652045918" },
-{id:"26", "name":"सौ. संध्या घरत", "location":"घरतपाडा मनोर", "contact":"8412027755" },
-{id:"27", "name":"डाॅ. सुनंदा पाटील", "location":"वळ भिवंडी", "contact":"8888140352" }
+{"location":"भिवंडी",'row':true},
+{id:"1", "name":"श्री. शैलेश भोईर ", "location":"गणेशपुरी","contact":"8975447111",row:false },
+{id:"2",  "name":"श्री. दयानंद पवार ", "location":"खंबाळा ", "contact":"9552722816",row:false},
+{id:"3",  "name":"श्री. श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
+{id:"4",  "name":"डॉ. मोनिका नाईक ", "location":"सोनाला", "contact":"9619000303",row:false},
+{id:"5",  "name":"डॉ. सुनंदा पाटील ", "location":"वळगाव", "contact":"8888140352",row:false},
+{id:"6",  "name":"श्री. भरत पाटील ", "location":"वडवलि वाशिंद", "contact":"9272806867",row:false},
+{"location":"मिरा-भाईंदर",row:true},
+{id:"7",  "name":"श्री. गुरुनाथ भोईर ", "location":"मुर्धा ", "contact":"9820671826",row:false},
+{id:"8",  "name":"श्री. पवन घरत ", "location":"गोडदेव", "contact":"9967604970",row:false},
+{id:"9",  "name":"श्री. जयकिसन पाटील ", "location":"राई", "contact":"9224716709",row:false},
+{id:"10", "name":"डॉ. नंदकुमार पाटील ", "location":"मोर्वा", "contact":"9920311258",row:false},
+{id:"11", "name":"श्री. सुधिर पाटील ", "location":"राई", "contact":"8652045918",row:false},
+{"location":"वसई, विरार, पालघर ",row:true},
+{id:"12", "name":"श्री. दयानंद म्हात्रे ", "location":"जूचंद्र ", "contact":"9273116172",row:false},
+{id:"13", "name":"सौ. साधना पाटील ", "location":"जूचंद्र ", "contact":"9529912911",row:false},
+{id:"14", "name":"श्री. तुषार सोनार 	", "location":"एव्हरशाईन", "contact":"8087521458",row:false},
+{id:"15", "name":"श्री. अरूण शर्मा ", "location":"वसई पश्चिम", "contact":"9930331515",row:false},
+{id:"16", "name":"श्री. केतन शाहा ", "location":"नालासोपारा", "contact":"9820735569",row:false},
+{id:"17", "name":"श्री. अजित मेहेर", "location":"आगाशी ", "contact":"8796403719",row:false},
+{id:"18", "name":"श्री. हरिदास संगमेश्वर ", "location":"डोंगरपाडा", "contact":"7507691783",row:false},
+{id:"19", "name":"श्री. नामदेव पाटील ", "location":"नाडा, वाडा ", "contact":"9145472724",row:false},
+{id:"20", "name":"श्री. बाबूराव गावड ", "location":"केळवे-सफाळे ", "contact":"9518995743",row:false},
+{id:"21", "name":"सौ. संध्या घरत ", "location":"घरतपाडा, मनोर", "contact":"8412027755",row:false},
+{"location":"कल्याण-डोंबिवली, बदलापूर, ठाणे ",row:true},
+{id:"22", "name":"श्री. यतीन पाठारे ", "location":"कल्याण", "contact":"9870314814",row:false },
+{id:"23", "name":"श्री. सुभाष भाग्यवंत ", "location":"हाजिमलंग", "contact":"8828594212",row:false },
+{id:"24", "name":"श्री. रतन पाटील ", "location":"डोंबिवली", "contact":"9867145030",row:false },
+{id:"25", "name":"श्री. श्री. दिपक वारघडे ", "location":"बदलापूर", "contact":"9764244280",row:false },
+{id:"26", "name":"सौ. कल्पना भोईर ", "location":"कासारवडवली", "contact":"7400326847",row:false },
+{id:"27", "name":"श्री. मुकेश पाटील ", "location":"दिवा स्टेशन ", "contact":"8655667773",row:false }
 ],
       marathiPersons : [
-{id:"१", "name":"सौ. कल्पना भोईर", "location":"कासार वडवली ठाणे","contact":"7400326847" },
-{id:"२",  "name":"श्री. अजित मेहेर", "location":"आगाशी विरार", "contact":"8796403719" },
-{id:"३",  "name":"श्री. बाबूराव गावड", "location":"केळवा रोड सफाळा", "contact":"9518995743"},
-{id:"४",  "name":"श्री. दयानंद म्हाञे", "location":"जूचंद्र वसई", "contact":"9273116172" },
-{id:"५",  "name":"श्री. यतीन पाठारे", "location":"कल्याण", "contact":"9870314814" },
-{id:"६",  "name":"श्री. भरत पाटील", "location":"वडवलि वाशिंद", "contact":"9272806867" },
-{id:"७",  "name":"श्री. अरूण शर्मा", "location":"वसई स्टेशन प", "contact":"9930331515" },
-{id:"८",  "name":"श्री. रतन पाटील", "location":"डोंबिवली", "contact":"9867145030" },
-{id:"९",  "name":"श्री. सुभाष भाग्यवंत", "location":"हाजिमलंग", "contact":"8828594212" },
-{id:"१०", "name":"श्री. गुरुनाथ भोईर", "location":"मुर्धा भाईदंर", "contact":"9820671826" },
-{id:"११", "name":"श्री. पवन घरत", "location":"गोडदेव भाईदंर", "contact":"9930536663" },
-{id:"१२", "name":"श्री. नामदेव पाटिल", "location":"नाडा-वाडा", "contact":"9145472724" },
-{id:"१३", "name":"श्री. शैलेश भोईर", "location":"गणेशपुरी", "contact":"8975447111" },
-{id:"१४", "name":"श्री. हरिदास संगमेश्वर", "location":"डोंगरपाडा विरार", "contact":"7507691783" },
-{id:"१५", "name":"श्री. केतन शाहा", "location":"नाळासोपारा", "contact":"9820735569" },
-{id:"१६", "name":"श्री. तुषार सोनार", "location":"इवरशांईन वसई", "contact":"8087521458" },
-{id:"१७", "name":"श्री. दयानंद पवार", "location":"अंबाडी खंबाळा", "contact":"9552722816" },
-{id:"१८", "name":"श्री. दिपक वारघडे", "location":"बदलापूर", "contact":"9764244280" },
-{id:"१९", "name":"श्री. राम पाटील", "location":"भिवंडी-अंबाडी", "contact":"9653254034" },
-{id:"२०", "name":"श्री. मुकेश पाटील", "location":"दिवा स्टेशन", "contact":"८६५५६६७७७३" },
-{id:"२१", "name":"श्री. साधना पाटील", "location":"जूचंद्र वसई", "contact":"8655667773" },
-{id:"२२", "name":"डाॅ. मोनिका नाईक", "location":"सोनाला भिवंडी", "contact":"9619000303" },
-{id:"२३", "name":"श्री. जयकिसन पाटील", "location":"राई भाईदंर", "contact":"9224716709" },
-{id:"२४", "name":"डाॅ. नंदकुमार पाटील", "location":"मोर्वा भाईदंर", "contact":"9920311258" },
-{id:"२५", "name":"श्री. सुधिर पाटील", "location":"राई भाईदंर", "contact":"8652045918" },
-{id:"२६", "name":"सौ. संध्या घरत", "location":"घरतपाडा मनोर", "contact":"8412027755" },
-{id:"२७", "name":"डाॅ. सुनंदा पाटील", "location":"वळ भिवंडी", "contact":"8888140352" }
-]
+{"location":"भिवंडी",'row':true},
+{id:"१", "name":"श्री. शैलेश भोईर ", "location":"गणेशपुरी","contact":"8975447111",row:false },
+{id:"२",  "name":"श्री. दयानंद पवार ", "location":"खंबाळा ", "contact":"9552722816",row:false},
+{id:"३",  "name":"श्री. श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
+{id:"४",  "name":"डॉ. मोनिका नाईक ", "location":"सोनाला", "contact":"9619000303",row:false},
+{id:"५",  "name":"डॉ. सुनंदा पाटील ", "location":"वळगाव", "contact":"8888140352",row:false},
+{id:"६",  "name":"श्री. भरत पाटील ", "location":"वडवलि वाशिंद", "contact":"9272806867",row:false},
+{"location":"मिरा-भाईंदर",row:true},
+{id:"७",  "name":"श्री. गुरुनाथ भोईर ", "location":"मुर्धा ", "contact":"9820671826",row:false},
+{id:"८",  "name":"श्री. पवन घरत ", "location":"गोडदेव", "contact":"9967604970",row:false},
+{id:"९",  "name":"श्री. जयकिसन पाटील ", "location":"राई", "contact":"9224716709",row:false},
+{id:"१०", "name":"डॉ. नंदकुमार पाटील ", "location":"मोर्वा", "contact":"9920311258",row:false},
+{id:"११", "name":"श्री. सुधिर पाटील ", "location":"राई", "contact":"8652045918",row:false},
+{"location":"वसई, विरार, पालघर ",row:true},
+{id:"१२", "name":"श्री. दयानंद म्हात्रे ", "location":"जूचंद्र ", "contact":"9273116172",row:false},
+{id:"१३", "name":"सौ. साधना पाटील ", "location":"जूचंद्र ", "contact":"9529912911",row:false},
+{id:"१४", "name":"श्री. तुषार सोनार 	", "location":"एव्हरशाईन", "contact":"8087521458",row:false},
+{id:"१५", "name":"श्री. अरूण शर्मा ", "location":"वसई पश्चिम", "contact":"9930331515",row:false},
+{id:"१६", "name":"श्री. केतन शाहा ", "location":"नालासोपारा", "contact":"9820735569",row:false},
+{id:"१७", "name":"श्री. अजित मेहेर", "location":"आगाशी ", "contact":"8796403719",row:false},
+{id:"१८", "name":"श्री. हरिदास संगमेश्वर ", "location":"डोंगरपाडा", "contact":"7507691783",row:false},
+{id:"१९", "name":"श्री. नामदेव पाटील ", "location":"नाडा, वाडा ", "contact":"9145472724",row:false},
+{id:"२०", "name":"श्री. बाबूराव गावड ", "location":"केळवे-सफाळे ", "contact":"9518995743",row:false},
+{id:"२१", "name":"सौ. संध्या घरत ", "location":"घरतपाडा, मनोर", "contact":"8412027755",row:false},
+{"location":"कल्याण-डोंबिवली, बदलापूर, ठाणे ",row:true},
+{id:"२२", "name":"श्री. यतीन पाठारे ", "location":"कल्याण", "contact":"9870314814",row:false },
+{id:"२३", "name":"श्री. सुभाष भाग्यवंत ", "location":"हाजिमलंग", "contact":"8828594212",row:false },
+{id:"२४", "name":"श्री. रतन पाटील ", "location":"डोंबिवली", "contact":"9867145030",row:false },
+{id:"२५", "name":"श्री. श्री. दिपक वारघडे ", "location":"बदलापूर", "contact":"9764244280",row:false },
+{id:"२६", "name":"सौ. कल्पना भोईर ", "location":"कासारवडवली", "contact":"7400326847",row:false },
+{id:"२७", "name":"श्री. मुकेश पाटील ", "location":"दिवा स्टेशन ", "contact":"8655667773",row:false }
+],
     }
   },
   created() {
@@ -133,5 +147,11 @@ englishPersons : [
 <style scoped>
 .table-bordered {
   border:1px solid #68923e;
+}
+.table-row-highlight {
+  background: #ec7c00;
+  padding:7px;
+  color:white;
+  font-size:20px;
 }
 </style>

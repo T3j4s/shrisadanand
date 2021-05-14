@@ -61,11 +61,11 @@
                                 <nav class="site-nav">
                                     <ul>
                                         <li>
-                                            <a href="#"><i class="icon-globe language-icon"></i></a>
+                                            <a href="#">{{ $t('navigation.language.name') }}</a>
                                             <ul class="sub-menu">
                                                 <li><a href="#"  @click.prevent="setLocale('en')">{{ $t('navigation.language.english') }}</a></li>
                                                 <li><a href="#"  @click.prevent="setLocale('mr')">{{ $t('navigation.language.marathi') }}</a></li>
-                                                <li><a href="#"  @click.prevent="setLocale('hi')">{{ $t('navigation.language.hindi') }}</a></li>
+                                                <!-- <li><a href="#"  @click.prevent="setLocale('hi')">{{ $t('navigation.language.hindi') }}</a></li> -->
 
                                             </ul>
                                         </li>
@@ -97,7 +97,7 @@
                                     <ul class="dropdown-menu ">
                                         <li><a href="#"  @click.prevent="setLocale('en')">{{ $t('navigation.language.english') }}</a></li>
                                          <li><a href="#"  @click.prevent="setLocale('mr')">{{ $t('navigation.language.marathi') }}</a></li>
-                                        <li><a href="#"  @click.prevent="setLocale('hi')">{{ $t('navigation.language.hindi') }}</a></li>
+                                        <!-- <li><a href="#"  @click.prevent="setLocale('hi')">{{ $t('navigation.language.hindi') }}</a></li> -->
                                     </ul>
                                 </div>
                                 <!-- <div class="header-account-list mini-cart">

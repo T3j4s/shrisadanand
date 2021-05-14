@@ -19,6 +19,7 @@
     "collectiondepot":"Collection Depot",
     "contact":"Contact",
     "language":{
+      "name":"Language",
       "english":"English",
       "marathi":"Marathi",
       "hindi":"Hindi"
@@ -257,6 +258,9 @@
       {"id":"२६", "name":"सौ. संध्या घरत", "location":"घरतपाडा मनोर", "contact":"८४१२०२७७५५" },
       {"id":"२७", "name":"डाॅ. सुनंदा पाटील", "location":"वळ भिवंडी", "contact":"८८८८१४०३५२" }
       ]
+  },
+  "testimonial":{
+    "name":"Testimonials"
   },
   "footer":{
     "footertext":"An Ayurvedic Proprietary Medicine",
