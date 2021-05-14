@@ -264,7 +264,7 @@
 
         <!--Testimonial Start-->
 		<div>
-			<p class="text-center" style="color:#68923e;font-size:40px;margin-top:100px;">{{ $t('testimonial.name') }}</p>
+			<p class="text-center testimonial-text">{{ $t('testimonial.name') }}</p>
 		</div>
         <div class="testimonial-area" :style="{backgroundImage: 'url('+require('@/assets/'+'/images/testimonial-bg.jpg')+')'}">
             <!-- style="background-image: url(assets/images/testimonial-bg.jpg);" -->
@@ -337,6 +337,17 @@
 	width:80%;
 	height:400px
 }
+.testimonial-text {
+	color:#68923e;
+	font-size:40px;
+	margin-top:100px;
+	font-weight: 400;
+}
+@media (max-width: 575.98px) {
+.testimonial-text {
+	font-size:24px;
+}
+ }
 </style>
 
 <script>

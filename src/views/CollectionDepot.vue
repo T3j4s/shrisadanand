@@ -61,7 +61,7 @@ englishPersons : [
 {"location":"भिवंडी",'row':true},
 {id:"1", "name":"श्री. शैलेश भोईर ", "location":"गणेशपुरी","contact":"8975447111",row:false },
 {id:"2",  "name":"श्री. दयानंद पवार ", "location":"खंबाळा ", "contact":"9552722816",row:false},
-{id:"3",  "name":"श्री. श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
+{id:"3",  "name":"श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
 {id:"4",  "name":"डॉ. मोनिका नाईक ", "location":"सोनाला", "contact":"9619000303",row:false},
 {id:"5",  "name":"डॉ. सुनंदा पाटील ", "location":"वळगाव", "contact":"8888140352",row:false},
 {id:"6",  "name":"श्री. भरत पाटील ", "location":"वडवलि वाशिंद", "contact":"9272806867",row:false},
@@ -94,7 +94,7 @@ englishPersons : [
 {"location":"भिवंडी",'row':true},
 {id:"१", "name":"श्री. शैलेश भोईर ", "location":"गणेशपुरी","contact":"8975447111",row:false },
 {id:"२",  "name":"श्री. दयानंद पवार ", "location":"खंबाळा ", "contact":"9552722816",row:false},
-{id:"३",  "name":"श्री. श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
+{id:"३",  "name":" श्री. राम पाटील ", "location":"अंबाडी", "contact":"9653254034",row:false},
 {id:"४",  "name":"डॉ. मोनिका नाईक ", "location":"सोनाला", "contact":"9619000303",row:false},
 {id:"५",  "name":"डॉ. सुनंदा पाटील ", "location":"वळगाव", "contact":"8888140352",row:false},
 {id:"६",  "name":"श्री. भरत पाटील ", "location":"वडवलि वाशिंद", "contact":"9272806867",row:false},
@@ -149,7 +149,7 @@ englishPersons : [
   border:1px solid #68923e;
 }
 .table-row-highlight {
-  background: #ec7c00;
+  background: #93af76;
   padding:7px;
   color:white;
   font-size:20px;
